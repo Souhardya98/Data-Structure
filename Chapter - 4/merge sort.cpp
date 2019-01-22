@@ -54,7 +54,7 @@ void mergesort(int *A, int n)
 }
 int main()
 {
-    int A[]={10,5,3,4,8,9,7,6,1};
+    int A[]={10,5,3,4,8,9,7,6,1,2};
 
     int numofelements = sizeof(A)/sizeof(A[0]);
 

@@ -29,9 +29,10 @@ void quickSort(int *A, int start,int  en)
 
 int main()
 {
-    int arr[]={0,5,6,7,3,1,4,9,8};
-    quickSort(arr,0,8);
-    for(int i=0; i<9; i++)
+    int arr[]={0,5,6,7,3,1,4,9,8,-2,50};
+    int numofelements = sizeof(arr)/sizeof(arr[0]);
+    quickSort(arr,0,numofelements-1);
+    for(int i=0; i<numofelements; i++)
             cout<<arr[i]<<"\t";
     cout<<endl;
 }
